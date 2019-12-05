@@ -8,7 +8,7 @@ for passb in file.readlines():
     password = passb.decode('utf8')
     x =  zipfile.ZipFile("Secret.zip","r")
     try:
-        x.extractall(pwd=p)
+        x.extractall(pwd=passb)
         print("Found correct password:",password)
         found = True
         break
