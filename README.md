@@ -1,2 +1,2 @@
 # zipbruteforcer
-This is the script i created for Google Code In 2019. Feel free to improve this further!
+This is a simple and straightforward script in python to bruteforce a protected zip using a wordlist. Feel free to improve this further!
